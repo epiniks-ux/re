@@ -17,7 +17,7 @@
     "@types/react-dom": "16.9.0",
     "react-icons": "^4.10.1",
     "rollup": "^4.9.6",
-    "rollup-plugin-import-assets": "^2.1.0",
+    "rollup-plugin-import-assets": "^1.1.1",
     "shx": "^0.3.4",
     "typescript": "^5.3.3"
   },
