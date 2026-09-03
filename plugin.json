@@ -1,0 +1,14 @@
+{
+  "name": "AchievementNotifier",
+  "author": "you",
+  "flags": [],
+  "publish": {
+    "tags": [
+      "achievements",
+      "notifications",
+      "utility"
+    ],
+    "description": "Customizable Xbox/PlayStation-style achievement popups in Game Mode, with your own colors, position, animation, sounds and rarity threshold.",
+    "image": "https://raw.githubusercontent.com/SteamDeckHomebrew/decky-plugin-template/main/assets/plugin_icon.png"
+  }
+}

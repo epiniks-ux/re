@@ -1,0 +1,36 @@
+{
+  "name": "achievement-notifier",
+  "version": "1.0.0",
+  "description": "Customizable achievement popup notifications for Steam Deck Game Mode (Decky Loader plugin).",
+  "scripts": {
+    "build": "shx rm -rf dist && rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/react": "16.14.0",
+    "@types/react-dom": "16.9.0",
+    "react-icons": "^4.10.1",
+    "rollup": "^4.9.6",
+    "rollup-plugin-import-assets": "^2.1.0",
+    "shx": "^0.3.4",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@decky/api": "^1.1.2",
+    "@decky/ui": "^4.9.1"
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "react",
+        "react-dom"
+      ]
+    }
+  }
+}

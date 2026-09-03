@@ -1,0 +1,23 @@
+{
+  "steam_api_key": "",
+  "steam_id64": "",
+  "enabled": true,
+  "preset": "xbox",
+  "position": "bottom-right",
+  "animation": "slide",
+  "duration_seconds": 6,
+  "scale_percent": 100,
+  "font_family": "system",
+  "show_icon": true,
+  "rarity_threshold_percent": 10,
+  "volume_percent": 70,
+  "normal_sound": "normal_default.wav",
+  "rare_sound": "rare_default.wav",
+  "normal_gradient_start": "hsla(210, 90%, 40%, 0.95)",
+  "normal_gradient_end": "hsla(210, 90%, 18%, 0.95)",
+  "normal_accent_color": "hsla(200, 100%, 60%, 1)",
+  "rare_gradient_start": "hsla(43, 93%, 52%, 0.95)",
+  "rare_gradient_end": "hsla(30, 90%, 22%, 0.95)",
+  "rare_accent_color": "hsla(45, 100%, 65%, 1)",
+  "poll_interval_seconds": 8
+}
