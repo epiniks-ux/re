@@ -5,7 +5,9 @@ import replace from '@rollup/plugin-replace';
 import typescript from '@rollup/plugin-typescript';
 import { defineConfig } from 'rollup';
 import importAssets from 'rollup-plugin-import-assets';
-import { name } from './plugin.json';
+import { readFileSync } from 'fs';
+
+const { name } = JSON.parse(readFileSync('./plugin.json', 'utf-8'));
 
 export default defineConfig({
   input: './src/index.tsx',
